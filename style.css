@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #F6E0A4;
+    font-family: "Roboto", sans-serif;
+    /* overflow-x: hidden; */
+    scroll-snap-type: proximity;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+}
+
+.container {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 19px;
+}
+
+.navbar>img {
+    width: 260px;
+    height: 30px;
+}
+
+.navbar>h2 {
+    font-size: 18px;
+    color: #251d20;
+    font-weight: 700;
+}
+
+.navbar>h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main {
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.main>img {
+    width: 432px;
+    height: 535px;
+
+}
+
+.main>p {
+    text-align: center;
+    line-height: 35px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #251d20;
+}
+
+.main>p>span {
+    color: #fff;
+}
+
+.footer {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.summary p {
+    text-align: left;
+    text-wrap: balance;
+    font-size: 18px;
+    font-weight: 700;
+    color: #251d20;
+    line-height: 25px;
+    padding-bottom: 5px;
+
+}
+
+.summary>h5 {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 25px;
+
+}
+
+.summary>h5 span:hover {
+    text-decoration: underline;
+}
+
+.summary>a {
+    padding-top: 20px;
+    text-align: end;
+    font-weight: 700;
+    font-size: 18px;
+    color: #251d20;
+    padding-bottom: 25px;
+}
+
+.summary>a:hover {
+    text-decoration: none;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+.items>a {
+    text-decoration: none;
+    color: #251d20;
+}
+
+.items>a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.section-1 {
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    padding-top: 175px;
+    height: 100%;
+    background-color: #FF608C;
+}
+
+.section-1>img {
+    width: 432px;
+    height: 535px;
+}
